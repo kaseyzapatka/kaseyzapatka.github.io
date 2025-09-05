@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="https://sociology.berkeley.edu/visiting-faculty/kasey-zapatka" target="_blank">PhD, Postdoctoral Researcher</a>. University of California, Berkeley
 
 profile:
   align: right
@@ -25,6 +25,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Kasey Zapatka is a postdoctoral scholar at the Urban Displacement Project and in the Department of Sociology at the University of California, Berkeley. His research seeks to better understand the dynamics of urban inequality through the lens of housing, neighborhoods, and household socioeconomic stratification. He has published studies on the sequence of gentrification, the benefits of New York City’s rent regulation for stabilized tenants, and neighborhood diversification in immigrant cities.
+I am a postdoctoral researcher and lecturer in the Department of Sociology at the University of California, Berkeley. I hold a PhD in Sociology from the City University of New York, The Graduate Center.
 
-Kasey has also been actively involved in various public-facing web-based projects, including one to help New York City tenants better understand rent regulation laws and another to visualize the changing diversity in metropolitan New York. He primarily uses quantitative methods in his research, particularly causal inference, spatial econometrics, and machine learning. Kasey holds a PhD in Sociology from The City University of New York, The Graduate Center.
+My research examines urban inequality through the lens of housing, neighborhoods, and socioeconomic stratification. I have published studies on the [sequence of gentrification](https://journals.sagepub.com/doi/10.1177/0042098020940596), the benefits of New York City’s [rent regulation for stabilized tenants](https://journals.sagepub.com/doi/10.1177/15356841221123762), and patterns of [neighborhood diversification in immigrant cities](https://www.kaseyzapatka.com/publication/russell-sage/).
+
+Current projects include evaluating the impact of Emergency Rental Assistance distributed during the COVID-19 Pandemic on eviction filing rates using multilevel and machine learning techniques; assessing the effects of eviction moratoria with augmented synthetic controls; and applying spatial econometric techniques to identify spillover effects of gentrification on neighborhood affordability. 
+
+Methodologically, I specialize in quantitative approaches to spatial, survey, and cross-sectional data, with interests in computational methods and causal inference. I currently teach [a year-long course in computational social science](https://github.com/kaseyzapatka/Computational-Social-Science-Training-Program) to PhD students at UC Berkeley.
+
+I am also committed to public-facing scholarship. I develop [Housing Literacy](https://housingliteracynyc.org), a web-based tool to explain New York City’s rent regulation laws, and the [Superdiveristy Website and Teaching Tool](http://www.superdiv-newyork.mmg.mpg.de/#newyork-intro?bubble;filter:Total%20population?map;variables:0,0;mode:traditional?treePermanent;year:2012;category:Family?treeTemporary;year:2012;category:Students?sankey;year:2018?dashboard;filters:Total%20-%20Sex,Total%20-%20Age%2018%20to%2065,Total%20-%20Race-ethnicity,Total%20-%20Immigrant%20cohort,Total%20-%20NYC%20status), which visualizes the changing diversity of metropolitan New York.
