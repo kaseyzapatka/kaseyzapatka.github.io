@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://sociology.berkeley.edu/visiting-faculty/kasey-zapatka" target="_blank">PhD, Postdoctoral Researcher</a>. University of California, Berkeley
+subtitle: <a href="https://sociology.berkeley.edu/visiting-faculty/kasey-zapatka" target="_blank">Postdoctoral Researcher and Lecturer,</a> University of California, Berkeley
 
 profile:
   align: right
