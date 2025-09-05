@@ -9,9 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>San Francisco, CA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Kasey Zapatka is a postdoctoral scholar at the Urban Displacement Project and in the Department of Sociology at the University of California, Berkeley. His research seeks to better understand the dynamics of urban inequality through the lens of housing, neighborhoods, and household socioeconomic stratification. He has published studies on the sequence of gentrification, the benefits of New York City’s rent regulation for stabilized tenants, and neighborhood diversification in immigrant cities.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Kasey has also been actively involved in various public-facing web-based projects, including one to help New York City tenants better understand rent regulation laws and another to visualize the changing diversity in metropolitan New York. He primarily uses quantitative methods in his research, particularly causal inference, spatial econometrics, and machine learning. Kasey holds a PhD in Sociology from The City University of New York, The Graduate Center.
