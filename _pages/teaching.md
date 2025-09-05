@@ -13,18 +13,18 @@ nav_order: 6
 *Computational Social Science 1*
 - **Reproducibility and transparency** — examen the principles of open and reproducible research, version control, and best practices for documenting and sharing data and analysis 
 - **Ethics and critical evaluation** — examining bias, fairness, and limitations of computational methods in social research
-- **Machine learning foundations** — supervised learning (regression, classification, tree-based methods, ensemble methods, BART, deep learning) and unsupervised learning (clustering, PCA/dimensionality reduction)
+- **Machine learning foundations** — supervised learning (regression, classification, tree-based methods, ensemble methods, BART, deep learning), unsupervised learning (clustering, PCA/dimensionality reduction), and ensemble methods
 - **Applied social science projects** — 4 hands-on analyses of real-world datasets, including predictive modeling and policy-relevant applications using key Python libraries(e.g., `sklearn`, `numpy` and `matplotlib`), the Anaconda framework, and GitHub.
 - [GitHub repository](https://github.com/kaseyzapatka/Computational-Social-Science-Training-Program)
 - [Syllabus](https://drive.google.com/file/d/1nXeo7ZG0ZGJXFraiG0SP0vWig9SI3tuv/view?usp=sharing)
 
 
 *Computational Social Science 2*
-- **Natural Language Processing (NLP)** — text as data, fundamentals of text analysis, unsupervised and supervised methods, classification, vector models, and neural networks for social science applications
-- **Causal inference** — randomized experiments, matching methods, natural experiments, instrumental variables, difference-in-differences, synthetic controls, and regression discontinuity designs
+- **Natural Language Processing (NLP)** — text as data, fundamentals of text analysis, unsupervised and supervised methods, classification, vector models, neural networks, and transformer models for natural language processing
+- **Causal inference** — randomized experiments, DAGs, matching methods, natural experiments, instrumental variables, difference-in-differences, synthetic controls, and regression discontinuity designs
 - **Sensitivity and robustness analysis** — evaluating assumptions, performing sensitivity checks, and interpreting causal estimates in observational and experimental data
-- **Machine learning for causal inference** — applying supervised and ensemble methods to longitudinal and policy-relevant datasets using `SuperLearner` and `tmle`
-- **Applied social science projects** — 5 hands-on projects analyzing real-world data using Python, R, and Google Colab, integrating NLP, machine learning, and causal inference methods
+- **Machine learning for causal inference** — applying supervised and ensemble methods to longitudinal and policy-relevant datasets
+- **Applied social science projects** — 5 hands-on projects analyzing real-world data that integrates NLP, machine learning, and causal inference methods using key libraries in Python (e.g., `spacy`, `tensorflow`, `keras`) and R (e.g., `tidyverse`, `SuperLearner`, `tmle`), as well as using cloud computing in Google Colab 
 
 - [GitHub repository](https://github.com/kaseyzapatka/Computational-Social-Science-Training-Program)
 - [Syllabus](https://drive.google.com/file/d/1uCAtV34RTi3vDbrpE3V9fW22KtAHKPmN/view?usp=sharing)
