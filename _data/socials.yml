@@ -10,21 +10,21 @@
 bluesky_url: https://bsky.app/profile/kaseyzapatka.bsky.social # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: kaseyzapatka@gmailcom.com # your email address
+email: kaseyzapatka@gmail.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 github_username: kaseyzapatka # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
+#inspirehep_id: 1010907 # Inspire HEP author ID
 # instagram_id: # your instagram id
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: www.linkedin.com/in/kaseyzapatka # your LinkedIn user name
+linkedin_username: kaseyzapatka # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 orcid_id: 0000-0002-7278-3660 # your ORCID ID
@@ -33,8 +33,8 @@ orcid_id: 0000-0002-7278-3660 # your ORCID ID
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+#rss_icon: true # comment this line to hide the RSS icon
+scholar_userid: 5nHsgg0AAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -50,7 +50,7 @@ scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 x_username: kaseyzap # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+#custom_social: # can be any name here other than the ones already defined above
+#  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#  title: Custom Social
+#  url: https://www.alberteinstein.com/
