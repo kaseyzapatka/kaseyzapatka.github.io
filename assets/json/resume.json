@@ -280,14 +280,31 @@
       "icon": "fa-solid fa-thumbtack"
     }
   ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+"projects": [
+  {
+    "name": "Superdiversity in Metro New York",
+    "summary": "Developed an interactive website and teaching tool to explore the changing ethno-racial diversity of the New York metropolitan area, integrating multiple datasets and producing policy-relevant analyses.",
+    "highlights": [
+      "Managed end-to-end project development of interactive Superdiversity Website and Teaching Tool",
+      "Built 6 large databases and conducted data analysis to understand changing diversity in Metro New York",
+      "Synthesized results, designed clear data visualizations, and presented key findings to stakeholders and funders",
+      "Supervised design team to ensure project aligned with stakeholder vision"
+    ],
+    "startDate": "2020-01-01",
+    "endDate": "2021-12-31",
+    "url": "https://superdiv-newyork.mmg.mpg.de/#newyork-intro?bubble;filter:Total%20population?map;variables:0,0;mode:traditional?treePermanent;year:2012;category:Family?treeTemporary;year:2012;category:Students?sankey;year:2018?dashboard;filters:Total%20-%20Sex,Total%20-%20Age%2018%20to%2065,Total%20-%20Race-ethnicity,Total%20-%20Immigrant%20cohort,Total%20-%20NYC%20statushttps://superdiv-newyork.mmg.mpg.de/%23newyork-intro?bubble;filter:Total%20population?map;variables:0,0;mode:traditional?treePermanent;year:2012;category:Family?treeTemporary;year:2012;category:Students?sankey;year:2018?dashboard;filters:Total%20-%20Sex,Total%20-%20Age%2018%20to%2065,Total%20-%20Race-ethnicity,Total%20-%20Immigrant%20cohort,Total%20-%20NYC%20status"
+  },
+  {
+    "name": "Housing Literacy",
+    "summary": "Developed an online tool to annotate legal documents for rent-stabilized tenants, promoting awareness of renter rights and housing policies in New York City.",
+    "highlights": [
+      "Researched New York City rent regulations to create accessible legal guidance",
+      "Designed interactive features to help tenants understand rights and obligations",
+      "Provided actionable resources for advocacy and public education"
+    ],
+    "startDate": "2017-08-15",
+    "endDate": "2019-05-01",
+    "url": "https://housingliteracynyc.org"
+  }
+]
 }
