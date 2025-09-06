@@ -1,14 +1,16 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - kaseyzapatka
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - kaseyzapatka/sanjose_case_study
+  - kaseyzapatka/rag_cats
+  - kaseyzapatka/rstan_case_study
+  - kaseyzapatka/rstan_case_study
+  - kaseyzapatka/Computational-Social-Science-Training-Program
+  - kaseyzapatka/dissertate-CUNY-sociology
+  - kaseyzapatka/orals
+  - kaseyzapatka/Superdiversity 
+  - kaseyzapatka/blm_turnout 
+
