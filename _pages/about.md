@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-TESTING I am a postdoctoral researcher and lecturer in the Department of Sociology at the University of California, Berkeley. I hold a PhD in Sociology from the City University of New York, The Graduate Center.
+I am a postdoctoral researcher and lecturer in the Department of Sociology at the University of California, Berkeley. I hold a PhD in Sociology from the City University of New York, The Graduate Center.
 
 My research examines urban inequality through the lens of housing, neighborhoods, and socioeconomic stratification. I have published studies on the [sequence of gentrification](https://journals.sagepub.com/doi/10.1177/0042098020940596), the benefits of New York City’s [rent regulation for stabilized tenants](https://journals.sagepub.com/doi/10.1177/15356841221123762), and patterns of [neighborhood diversification in immigrant cities](https://www.kaseyzapatka.com/publication/russell-sage/).
 
