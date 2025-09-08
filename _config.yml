@@ -7,7 +7,6 @@ first_name: Kasey
 middle_name: 
 last_name: Zapatka, PhD
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -89,7 +88,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name: Musings # blog_name will be displayed in your blog page
 blog_description: some musings on things i care about
 permalink: /blog/:year/:title/
-lsi: true # produce an index for related posts
+lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
