@@ -1,81 +1,71 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Superdiversity
+description: Developed an interactive website visualizing New York metropolitan superdiversity, combining data analysis, cross-functional team leadership, and public-facing demographic insights.
+img: assets/img/thumb_superdiversity.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: public-facing
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## [SuperDiversity: A Website and Teaching Tool for Understanding the Changing Demographics in Metropolitan New York](http://www.superdiv-newyork.mmg.mpg.de/#newyork-national?bubble;filter:Total%20population?map;variables:3,2;mode:superdiversity?treePermanent;year:2012;category:Family?treeTemporary;year:2012;category:Students?sankey;year:2018?dashboard;filters:Total%20-%20Sex,Total%20-%20Age%2018%20to%2065,Total%20-%20Race-ethnicity,Total%20-%20Immigrant%20cohort,Total%20-%20NYC%20status)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+---
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Project Overview**  
+
+At the [Max Planck Institute for the Study of Religious and Ethnic Diversity](https://www.mpg.de/153514/study-of-religious-and-ethnic-diversity), I led the development of the **Superdiversity in Metro New York** interactive website and teaching tool, providing a comprehensive, data-driven exploration of the changing demographic and socio-economic landscape of the New York metropolitan area. The initiative combined rigorous data analysis, visualization, and narrative design to engage both public and academic audiences[^1].  
+
+**Key Findings**  
+
+1. **New York’s Immigrant Diversity**: Nearly a third of NYC residents and almost half of the labor force are foreign-born. Immigrants arrive from dozens of countries, speak hundreds of languages, and are overrepresented among both the most and least educated, reflecting a broad spectrum of socio-economic backgrounds.  
+
+2. **Changing Patterns of Language and Assimilation**: While English remains dominant, the use of Spanish, Hindi, and Chinese has grown from 2000 to 2018. Many ethnoracial groups maintain linguistic diversity while also adopting English, reflecting both cultural retention and assimilation trends.  
+
+3. **Socio-Economic Disparities Across Groups**: Employment rates are high across ethnoracial groups, but educational attainment, income, and homeownership vary widely. Chinese and Indian residents are most likely to hold a university degree and own a home, whereas Dominicans, Puerto Ricans, and Mexicans experience higher rates of low income and lower homeownership.  
+
+4. **Neighborhood-Level Superdiversity**: Many neighborhoods host complex mixes of Asian and Latinx groups, long-time residents, and recent immigrants. Superdiversity maps reveal how intersecting dimensions of ethnicity, income, education, and immigrant generation shape the lived experience of New Yorkers.  
+
+5. **Interconnected Dimensions of Diversity**: Superdiversity mapping identifies neighborhoods where multiple dimensions of diversity intersect, showing how people encounter residents from very different socio-economic, ethnic, and educational backgrounds in daily life.  
+
+
+<br> 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/superdiv1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/superdiv2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/superdiv3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Some example data visualizations from the project.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<br>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Project Development** 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Managed end-to-end development of the Superdiversity website, coordinating all phases from project conception to launch.  
+- Built and analyzed six large cross-sectional and longitudinal datasets, integrating US Census Bureau and Department of Homeland Security data to examine trends in ethnicity, language, immigration, and socio-economic outcomes.  
+- Led a cross-functional team of researchers, data scientists, and designers[^2] to ensure the project met academic standards and remained accessible to public audiences.  
+- Synthesized complex data into compelling narratives and interactive visualizations for both academic and general audiences.  
+- Oversaw website design and technical implementation, ensuring usability, robustness, and alignment with stakeholder objectives.  
+- Performed advanced spatial and statistical analyses in R and Python to uncover neighborhood-level patterns of diversity and mobility.  
+- Collaborated with institutional stakeholders to align project goals with research objectives and community needs.  
+- Produced a public-facing platform communicating rigorous demographic insights on superdiversity, mobility, and socio-economic status across the metropolitan region.
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+<br>
 
-{% endraw %}
+---
+
+##### Footnotes
+
+
+[^1]: This [technical paper](https://www.mmg.mpg.de/877321/wp-21-01) outlines the methodology used to create all project datasets used to build the website.
+[^2]: I worked with a team of designers from [Stamen](https://stamen.com), who wrote the code to build out the website based on the datasets I developed, analyzes I conducted, and findings I identified.

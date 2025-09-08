@@ -1,81 +1,84 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Housing Literacy
+description: Online tool annotating NYC rent regulations, empowering rent-stabilized tenants and supporting advocates with accessible resources, policy analysis, and data tools.
+img: assets/img/thumb_housing_literacy.png
 importance: 1
-category: work
+category: public-facing
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## [Housing Literacy: A Tool for Understanding Rent Regulation](https://housingliteracynyc.org)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+---
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Research driven
+
+I created **[Housing Literacy](https://housingliteracynyc.org)**, with the help of [Partner & Partners](https://partnerandpartners.com/housing-literacy/), to be an online resource that makes New York City’s rent regulations more transparent and accessible for everyday New Yorkers. The platform annotates all of the legal documents that rent-stabilized tenants might encounter throughout their tenancy, promoting greater understanding of rights and responsibilities. To accomplish this, I used a user research approach (UX).
+
+**Key Contributions / UX Research Approach:**  
+
+- **Conducted stakeholder interviews** with tenants, housing advocates, and housing lawyers to identify pain points around confusion in rent regulations and lack of transparency.  
+- **Identified and validated user needs**: tenants struggled with limited access to clear explanations of rent-stabilization rights and responsibilities.  
+- **Synthesized insights** from the New York City housing agency, New York University's Furman Center, the Rent Guidelines Board, and New York State Department of Housing and Community Renewal reports and decisions to confirm policy gaps and inform solution design.  
+- **Developed a communication framework** to translate complex regulations into accessible language and clear document annotations for everyday New Yorkers.  
+- **Designed and built Housing Literacy**, an online tool that made legal housing documents more transparent and user-friendly for rent-stabilized tenants.  
+- **Created resources for housing advocates**, enabling them to better educate and support tenants through accessible, data-driven housing information.  
+- **Leveraged technical expertise** (GitHub, Python, QGIS, Stata) for website development, spatial analysis, and statistical modeling to inform and scale the solution.  
+
+
+<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/housing_literacy3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    An example of how a standard lease is annotated. 
 </div>
+
+<br>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/housing_literacy_ann1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/housing_literacy_ann3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/housing_literacy_ann2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Some example annotations.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<br>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+---
+
+### Community-Oriented (advocacy/tenant audience)
+
+I also wanted **Housing Literacy** to be an online tool that housing advocates could use to help educate their constituents and clients. Through stakeholder interviews, I learned that lawyers lacked an easy way to highlight key information in leases and other housing documents for their clients. Many tenants also misplaced paper handouts or meeting notes. To address these challenges, I developed a website that annotates all relevant legal documents, providing clear explanations and linking to important resources. This allows lawyers to efficiently guide clients and enables tenants to access the information anytime, helping them navigate housing issues more confidently.  
+
+**Key Contributions / UX Research Approach:**  
+
+- Conducted stakeholder interviews with lawyers and housing advocates to identify gaps in how tenants receive and understand legal information.  
+- Developed personas and user journeys for tenants and advocates to inform design decisions.  
+- Iteratively tested the website with users to ensure clarity and accessibility of annotations.  
+- Provided a central online hub that consolidates legal documents, annotations, and policy resources, reducing reliance on paper handouts.  
+- Used data and mapping tools (Python, R, GitHub) to analyze housing policy and support design decisions.  
+
+
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/housing_literacy_resources.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Easily accesible housing resources with links to where they can find more information.
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
