@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-spatial-joins",
+        
+          title: "spatial joins",
+        
+        description: "Spatial join tutorial in R and Python",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/spatial-joins/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
