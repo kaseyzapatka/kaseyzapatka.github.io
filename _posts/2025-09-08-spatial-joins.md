@@ -9,11 +9,11 @@ giscus_comments: false
 related_posts: false
 ---
 
-Spatial joins are the backbone of data management in spatial analysis. A **_spatial join_** is a GIS operation that combines two datasets based on their geographic relationships rather than attribute values. Instead of matching rows by a common ID like in a typical database join, spatial joins link features based on location—such as points within polygons, nearest neighbors, or overlapping areas. This allows you to join one dataset with attributes from another based on their spatial relationship, which is essential for tasks like aggregating census data by neighborhoods or linking crime incidents to police precincts. 
+Spatial joins are the backbone of data management in spatial analysis. A [spatial join](https://geopandas.org/en/stable/gallery/spatial_joins.html) is a GIS operation that combines two datasets based on their geographic relationships rather than attribute values. Instead of matching rows by a common ID, as in a typical database join, spatial joins link features based on location—such as points within polygons, nearest neighbors, or overlapping areas. This allows you to join one dataset with attributes from another based on their spatial relationship, which is essential for tasks like aggregating census data by neighborhoods or linking crime incidents to police precincts.
 
-In this tutorial, I will spatially join two polygons-one for census tracts and one for places-to illustrate how the spatial join. While spatial joins can handle joining polygons and points, joining polygons to polygons presents a unique challenge because it is likely that the the polygons for one layer do not perfectly overlap with another. So, we have to have a technique to determine what to include. Here, we'll join all San Francisco census tracts[^tracts] whose centroids (the geometric center of the polygon shape) fall within the San Francisco place[^places] polygon.
+In this tutorial, I will spatially join two polygons—one for census tracts and one for places—to illustrate how a spatial join can combine data from two different geographic layers. While spatial joins can handle joining polygons and points, joining polygons to polygons presents a unique challenge because the polygons in one layer often do not perfectly overlap with those in another. Therefore, we need a method to determine which features to include. Here, we'll join all San Francisco census tracts[^tracts] whose centroids (the geometric center of the polygon) fall within the San Francisco place[^places] polygon. This ensures that all census tracts within the Census-designated place of San Francisco are captured in our join.
 
-
+<br> 
 
 {::nomarkdown}
 {% assign jupyter_path = 'assets/jupyter/spatial_joins.ipynb' | relative_url %}
