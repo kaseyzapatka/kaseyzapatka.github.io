@@ -6,6 +6,7 @@ description: Spatial join tutorial in Python
 tags: python jupyter spatial
 categories: tutorials
 giscus_comments: false
+featured: true
 related_posts: false
 ---
 
