@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "spatial joins",
         
-        description: "Spatial join tutorial in R and Python",
+        description: "Spatial join tutorial in Python",
         section: "Posts",
         handler: () => {
           
