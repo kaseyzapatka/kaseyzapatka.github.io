@@ -34,6 +34,14 @@ In this tutorial, I will spatially join two polygons—one for census tracts and
 
 <br>
 
+
+### Download the Notebook
+
+If you want to run the code locally, you can download the original Jupyter notebook:
+
+[📥 Download spatial joins script](https://github.com/kaseyzapatka/kaseyzapatka.github.io/tree/main/assets/jupyter/spatial_joins.ipynb)
+
+
 ### Footnotes 
 
 --- 
