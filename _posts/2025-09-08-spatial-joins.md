@@ -14,20 +14,25 @@ Spatial joins are the backbone of data management in spatial analysis. A [spatia
 
 In this tutorial, I will spatially join two polygons—one for census tracts and one for places—to illustrate how a spatial join can combine data from two different geographic layers. While spatial joins can handle joining polygons and points, joining polygons to polygons presents a unique challenge because the polygons in one layer often do not perfectly overlap with those in another. Therefore, we need a method to determine which features to include. Here, we'll join all San Francisco census tracts[^tracts] whose centroids (the geometric center of the polygon) fall within the San Francisco place[^places] polygon. This ensures that all census tracts within the Census-designated place of San Francisco are captured in our join.
 
-<br> 
+<br>
 
-{::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/spatial_joins.ipynb' | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/spatial_joins.ipynb %}{% endcapture %}
-{% if notebook_exists == 'true' %}
-  {% jupyter_notebook jupyter_path %}
-{% else %}
-  <p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-{:/nomarkdown}
+<!-- Auto-resizing iframe for the rendered notebook -->
+<iframe id="notebook-iframe"
+        src="{{ '/assets/jupyter/spatial_joins.html' | relative_url }}"
+        width="100%"
+        style="border:none; overflow:hidden;">
+</iframe>
 
+<script>
+  // Listen for messages from the iframe and adjust its height
+  window.addEventListener("message", function(event) {
+    if (event.data.type === "resize-iframe") {
+      document.getElementById("notebook-iframe").style.height = event.data.height + "px";
+    }
+  });
+</script>
 
-<br> 
+<br>
 
 ### Footnotes 
 
