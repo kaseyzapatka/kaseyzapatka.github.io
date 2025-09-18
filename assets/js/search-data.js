@@ -51,9 +51,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-spatial-joins",
+        },{id: "post-spatial-joins-in-python",
         
-          title: "spatial joins",
+          title: "Spatial joins in Python",
         
         description: "Spatial join tutorial in Python",
         section: "Posts",
