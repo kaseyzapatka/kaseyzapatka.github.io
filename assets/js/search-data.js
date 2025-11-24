@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-spatial-joins-in-python",
+        },{id: "post-positron",
+        
+          title: "Positron",
+        
+        description: "Positron",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/positron/";
+          
+        },
+      },{id: "post-spatial-joins-in-python",
         
           title: "Spatial joins in Python",
         
