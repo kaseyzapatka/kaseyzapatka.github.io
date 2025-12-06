@@ -1,8 +1,8 @@
 ---
 layout: post
-title: My Flexible Plotting Approach in R using ggplot2
+title: Flexible Functions 
 date: 2025-12-05
-description: Figure Functions
+description: My Flexible Plotting Approach in R using ggplot2
 tags: R functions ggplot2
 categories: tutorials
 giscus_comments: false

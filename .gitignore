@@ -12,3 +12,5 @@ node_modules/
 vendor
 .idea
 fixes.md
+.Rhistory
+assets/jupyter/output/
