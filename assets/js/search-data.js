@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-positron",
+        },{id: "post-my-flexible-plotting-approach-in-r-using-ggplot2",
+        
+          title: "My Flexible Plotting Approach in R using ggplot2",
+        
+        description: "Figure Functions",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/flexible-functions/";
+          
+        },
+      },{id: "post-positron",
         
           title: "Positron",
         
