@@ -250,7 +250,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["python", "R", "jupyter", "spatial"] # these tags will be displayed on the front page of your blog
+display_tags: ["python", "R", "jupyter", "spatial", "ggplot2", "functions"] # these tags will be displayed on the front page of your blog
 display_categories: ["tutorials", "notes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
