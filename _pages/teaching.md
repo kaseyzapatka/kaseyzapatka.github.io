@@ -10,6 +10,15 @@ nav_order: 6
 ---
 ### University of California, Berkeley  
 **Postdoctoral Lecturer**  
+*Sociology 106: Quantitative Sociological Methods*
+- **Statistical inference** — logic of inference, hypothesis testing, confidence intervals, p-values, Type I/II errors, and power analysis
+- **Bivariate methods** — t-tests, chi-square tests, ANOVA, correlation, and cross-tabulations for comparing groups and measuring associations
+- **Regression analysis** — OLS regression, interpretation of coefficients and interactions, logistic regression, and marginal effects
+- **Data analysis in R** — data management, visualization, and statistical analysis using R and Positron, with weekly labs applying methods to real-world sociological datasets
+- **Research paper** — semester-long independent project applying course methods to a dataset and research question of the student's choice
+- [Course Website](https://www.kaseyzapatka.com/soc106/)
+- [Syllabus](https://www.kaseyzapatka.com/soc106/syllabus.html)
+
 *Computational Social Science 1*
 - **Reproducibility and transparency** — examen the principles of open and reproducible research, version control, and best practices for documenting and sharing data and analysis 
 - **Ethics and critical evaluation** — examining bias, fairness, and limitations of computational methods in social research
