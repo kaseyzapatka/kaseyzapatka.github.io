@@ -5,7 +5,7 @@
     "image": "profile_pic.jpeg",
     "email": "kaseyzapatka@berkeley.edu", 
     "phone": "",
-    "url": "kaseyzapatka.com",
+    "url": "https://www.kaseyzapatka.com",
     "summary": "Social science researcher using computational and survey methods to measure policy impacts and visualize findings for stakeholders and decision-makers.",
     "location": {
       "address": "",
@@ -182,7 +182,7 @@
     "name": "Superdiversity in Metropolitan New York: Technical Report",
     "publisher": "Max Planck Institute",
     "releaseDate": "2021-06-01",
-    "url": "www.superdiv-newyork.mmg.mpg.de",
+    "url": "https://www.superdiv-newyork.mmg.mpg.de",
     "summary": "Describes data sources, design principles, methods, and variable categories used to produce the Superdiversity in Metropolitan New York visualization website."
   },
   {
@@ -363,7 +363,7 @@
     ],
     "startDate": "2020-01-01",
     "endDate": "2021-12-31",
-    "url": "https://superdiv-newyork.mmg.mpg.de/#newyork-intro?bubble;filter:Total%20population?map;variables:0,0;mode:traditional?treePermanent;year:2012;category:Family?treeTemporary;year:2012;category:Students?sankey;year:2018?dashboard;filters:Total%20-%20Sex,Total%20-%20Age%2018%20to%2065,Total%20-%20Race-ethnicity,Total%20-%20Immigrant%20cohort,Total%20-%20NYC%20statushttps://superdiv-newyork.mmg.mpg.de/%23newyork-intro?bubble;filter:Total%20population?map;variables:0,0;mode:traditional?treePermanent;year:2012;category:Family?treeTemporary;year:2012;category:Students?sankey;year:2018?dashboard;filters:Total%20-%20Sex,Total%20-%20Age%2018%20to%2065,Total%20-%20Race-ethnicity,Total%20-%20Immigrant%20cohort,Total%20-%20NYC%20status"
+    "url": "https://superdiv-newyork.mmg.mpg.de"
   },
   {
     "name": "Housing Literacy",
