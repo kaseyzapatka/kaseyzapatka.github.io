@@ -1,0 +1,21 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in include.entries %}
+    <li class="list-group-item">
+      <div class="row">
+        {% include rendercv/date_col.liquid start_date=entry.start_date end_date=entry.end_date location=entry.location %}
+        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.degree }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.institution }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.area }}</h6>
+          {% if entry.highlights %}
+            <ul class="items">
+              {% for item in entry.highlights %}
+                <li><span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

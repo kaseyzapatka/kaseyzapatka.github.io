@@ -1,0 +1,36 @@
+{% assign rc_start = include.start_date | split: '-' | slice: 0, 2 | join: '.' %}
+{% if include.end_date == 'present' or include.end_date == blank %}
+  {% assign rc_end = 'Present' %}
+{% else %}
+  {% assign rc_end = include.end_date | split: '-' | slice: 0, 2 | join: '.' %}
+{% endif %}
+{% if include.start_date %}
+  {% assign rc_date = rc_start | append: ' - ' | append: rc_end %}
+{% elsif include.date %}
+  {% assign rc_date = include.date %}
+{% else %}
+  {% assign rc_date = '' %}
+{% endif %}
+<div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+  <table class="table-cv">
+    <tbody>
+      <tr>
+        <td>
+          {% if rc_date != '' %}
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ rc_date }}</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% if include.location %}
+        <tr>
+          <td>
+            <p class="location">
+              <i class="fa-solid fa-location-dot iconlocation"></i>
+              {{ include.location }}
+            </p>
+          </td>
+        </tr>
+      {% endif %}
+    </tbody>
+  </table>
+</div>

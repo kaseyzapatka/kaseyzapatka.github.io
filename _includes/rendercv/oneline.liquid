@@ -1,0 +1,21 @@
+<div class="list-groups">
+  {% for entry in include.entries %}
+    <div class="list-group col-md-6">
+      <table class="table-cv list-group-table">
+        <tbody>
+          <tr>
+            <td class="list-group-category-icon"></td>
+            <td class="list-group-category">{{ entry.label }}</td>
+          </tr>
+          {% assign keywords = entry.details | split: ', ' %}
+          {% for kw in keywords %}
+            <tr>
+              <td></td>
+              <td class="list-group-name"><b>{{ kw }}</b></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
+</div>
