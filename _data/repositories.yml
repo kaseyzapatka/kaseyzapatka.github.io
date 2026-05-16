@@ -4,12 +4,12 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - kaseyzapatka/nepa
+  - kaseyzapatka/soc106
+  - kaseyzapatka/cfpb
   - kaseyzapatka/sanjose_case_study
-  - kaseyzapatka/rag_cats
   - kaseyzapatka/rstan_case_study
   - kaseyzapatka/Computational-Social-Science-Training-Program
-  - kaseyzapatka/dissertate-CUNY-sociology
-  - kaseyzapatka/orals
-  - kaseyzapatka/Superdiversity 
-  - kaseyzapatka/blm_turnout 
+  - kaseyzapatka/Superdiversity
+  - kaseyzapatka/blm_turnout
 

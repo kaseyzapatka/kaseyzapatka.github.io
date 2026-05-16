@@ -3,7 +3,7 @@ layout: page
 title: Housing Literacy
 description: Online tool annotating NYC rent regulations, empowering rent-stabilized tenants and supporting advocates with accessible resources, policy analysis, and data tools.
 img: assets/img/thumb_housing_literacy.png
-importance: 1
+importance: 6
 category: public-facing
 related_publications: true
 ---

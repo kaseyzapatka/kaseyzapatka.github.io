@@ -5,7 +5,6 @@ permalink: /projects/
 description: a sampling of my public-facing projects
 nav: true
 nav_order: 3
-display_categories: [public-facing]
 horizontal: false
 ---
 

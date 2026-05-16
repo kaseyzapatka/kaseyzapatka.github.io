@@ -6,7 +6,7 @@
     "email": "kaseyzapatka@berkeley.edu", 
     "phone": "",
     "url": "kaseyzapatka.com",
-    "summary": "Quantitative social science researcher, skilled in computational, spatial, and survey methods with a background in user experience.",
+    "summary": "Social science researcher using computational and survey methods to measure policy impacts and visualize findings for stakeholders and decision-makers.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -52,6 +52,20 @@
     }
   ],
 "work": [
+  {
+    "name": "Clean Air Task Force",
+    "position": "Consultant – NEPA Clean Energy Review Analysis",
+    "url": "https://www.catf.us/",
+    "startDate": "2026-01-01",
+    "endDate": "",
+    "summary": "Built a Python NLP pipeline to analyze federal clean energy permitting timelines at scale, delivering evidence-based recommendations to support permitting reform advocacy.",
+    "highlights": [
+      "Built a BERT+LLM pipeline to extract and classify records from 120,000+ NEPA documents, enabling CATF to analyze clean energy review timelines at scale",
+      "Integrated Federal Register API data, targeted web scraping, and ML/regex classifiers to categorize 20,000+ projects by technology, review process, and capacity",
+      "Scoped research questions collaboratively with CATF and delivered phased findings across six structured deliverables mapped to specific policy priorities",
+      "Communicated findings to policymakers, funders, and advocates via a public <a href=\"https://www.kaseyzapatka.com/nepa/phase1/reports/project_overview.html\" target=\"_blank\">project website</a> and <a href=\"https://huggingface.co/spaces/kaseyzapatka/nepa-document-explorer\" target=\"_blank\">HuggingFace document browser</a>"
+    ]
+  },
   {
     "name": "University of California, Berkeley",
     "position": "Postdoctoral Researcher and Lecturer",
@@ -281,6 +295,63 @@
     }
   ],
 "projects": [
+  {
+    "name": "NEPA Clean Energy Environmental Review Analysis",
+    "summary": "Built a Python BERT+LLM pipeline for the Clean Air Task Force to extract structured data from 120,000+ federal NEPA documents, enabling analysis of clean energy permitting timelines and agency-level reform recommendations.",
+    "highlights": [
+      "Trained BERT classifiers and built LLM adjudication layer to extract review dates, process types, and project characteristics from unstructured federal documents",
+      "Integrated Federal Register API, web scraping, and ML/regex classifiers to categorize 20,000+ projects by technology, capacity, and review type",
+      "Scoped and delivered six phased research deliverables in direct collaboration with CATF policy researchers",
+      "Published findings via public <a href=\"https://www.kaseyzapatka.com/nepa/phase1/reports/project_overview.html\" target=\"_blank\">project website</a> and <a href=\"https://huggingface.co/spaces/kaseyzapatka/nepa-document-explorer\" target=\"_blank\">HuggingFace document browser</a>"
+    ],
+    "startDate": "2026-01-01",
+    "endDate": "",
+    "url": "https://www.kaseyzapatka.com/nepa/phase1/reports/project_overview.html",
+    "keywords": ["Python", "BERT", "LLM", "NLP", "DuckDB", "federal permitting", "NEPA", "clean energy", "machine learning"]
+  },
+  {
+    "name": "San Jose Transit Equity Analysis",
+    "summary": "Spatial analysis of zoning, parcel capacity, and public transit access around Diridon Station to assess transportation equity in downtown San Jose.",
+    "highlights": [
+      "Built spatial analysis pipeline in Python using geopandas and shapely to join parcel, zoning, and transit data",
+      "Defined transit shed via buffer analysis around Diridon Station and classified zoning by permitted residential density",
+      "Computed dwelling capacity per parcel and identified areas with high transit access but restrictive zoning",
+      "Produced static equity maps and an interactive map of the Diridon area"
+    ],
+    "startDate": "2025-08-01",
+    "endDate": "2026-02-01",
+    "url": "",
+    "keywords": ["Python", "geopandas", "spatial analysis", "zoning", "transit equity", "San Jose"]
+  },
+  {
+    "name": "Voter Turnout in New York City",
+    "summary": "Research project at the CUNY Center for Urban Research applying Bayesian methods, machine learning, and retrieval-augmented generation to study ethno-racial voter turnout patterns from New York City administrative data.",
+    "highlights": [
+      "Used Bayesian Improved Surname Geocoding (BISG) to impute race/ethnicity from surnames in voter registration files",
+      "Integrated BISG results with US Census and New York City administrative data to enhance demographic precision",
+      "Applied machine learning models to uncover patterns in historical ethno-racial voter turnout and behavior",
+      "Applied retrieval-augmented generation (RAG) techniques to query insights from over 4 million voter file records",
+      "Fine-tuned open-source LLMs to extract actionable insights and improve predictive accuracy in voter data analysis"
+    ],
+    "startDate": "2025-07-01",
+    "endDate": "2026-01-01",
+    "url": "",
+    "keywords": ["R", "BISG", "Bayesian methods", "machine learning", "RAG", "LLMs", "voter data", "NYC"]
+  },
+  {
+    "name": "SF Residential Inspection Risk",
+    "summary": "Built composite risk scores for San Francisco residential parcels using fire incident, building violation, and inspection records, delivering interactive Shiny dashboards for SFFD and the Department of Building Inspection.",
+    "highlights": [
+      "Linked fire incidents, building violations, inspection records, and parcel tax data at the parcel level using APN identifiers",
+      "Constructed composite risk indices for fire risk and building inspection risk, standardized across all residential parcels",
+      "Clustered parcels spatially using k-means to identify neighborhood risk tiers for prioritizing inspections",
+      "Deployed two interactive Shiny dashboards — one for SFFD and one for DBI — for agency use"
+    ],
+    "startDate": "2025-06-01",
+    "endDate": "2025-12-01",
+    "url": "",
+    "keywords": ["R", "sf", "Shiny", "k-means", "spatial analysis", "risk scoring", "San Francisco"]
+  },
   {
     "name": "Superdiversity in Metro New York",
     "summary": "Developed an interactive website and teaching tool to explore the changing ethno-racial diversity of the New York metropolitan area, integrating multiple datasets and producing policy-relevant analyses.",

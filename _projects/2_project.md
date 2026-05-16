@@ -3,7 +3,7 @@ layout: page
 title: Superdiversity
 description: Developed an interactive website visualizing New York metropolitan superdiversity, combining data analysis, cross-functional team leadership, and public-facing demographic insights.
 img: assets/img/thumb_superdiversity.jpg
-importance: 2
+importance: 5
 category: public-facing
 giscus_comments: false
 ---
