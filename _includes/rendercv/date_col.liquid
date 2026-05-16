@@ -1,4 +1,4 @@
-{% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: ',' %}
+{% assign month_names = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: ',' %}
 {% if include.start_date %}
   {% assign start_parts = include.start_date | split: '-' %}
   {% if start_parts[1] %}
