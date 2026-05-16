@@ -1,11 +1,24 @@
-{% assign rc_start = include.start_date | split: '-' | slice: 0, 2 | join: '.' %}
-{% if include.end_date == 'present' or include.end_date == blank %}
-  {% assign rc_end = 'Present' %}
-{% else %}
-  {% assign rc_end = include.end_date | split: '-' | slice: 0, 2 | join: '.' %}
-{% endif %}
+{% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: ',' %}
 {% if include.start_date %}
-  {% assign rc_date = rc_start | append: ' - ' | append: rc_end %}
+  {% assign start_parts = include.start_date | split: '-' %}
+  {% if start_parts[1] %}
+    {% assign start_month_idx = start_parts[1] | minus: 1 %}
+    {% assign rc_start = month_names[start_month_idx] | append: ' ' | append: start_parts[0] %}
+  {% else %}
+    {% assign rc_start = start_parts[0] %}
+  {% endif %}
+  {% if include.end_date == 'present' or include.end_date == blank %}
+    {% assign rc_end = 'Present' %}
+  {% else %}
+    {% assign end_parts = include.end_date | split: '-' %}
+    {% if end_parts[1] %}
+      {% assign end_month_idx = end_parts[1] | minus: 1 %}
+      {% assign rc_end = month_names[end_month_idx] | append: ' ' | append: end_parts[0] %}
+    {% else %}
+      {% assign rc_end = end_parts[0] %}
+    {% endif %}
+  {% endif %}
+  {% assign rc_date = rc_start | append: ' – ' | append: rc_end %}
 {% elsif include.date %}
   {% assign rc_date = include.date %}
 {% else %}

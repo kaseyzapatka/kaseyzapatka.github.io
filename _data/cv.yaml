@@ -12,11 +12,29 @@ cv:
       username: 0000-0002-7278-3660
 
   sections:
-    summary:
-      - Social science researcher using computational and survey methods to measure
-        policy impacts and visualize findings for stakeholders and decision-makers.
+    Education:
+      - institution: City University of New York, The Graduate Center
+        area: Sociology
+        degree: PhD
+        start_date: 2016-08
+        end_date: 2023-02
+        location: New York City, NY
 
-    experience:
+      - institution: Fordham University
+        area: Sociology
+        degree: MA
+        start_date: 2014-08
+        end_date: 2016-05
+        location: Bronx, NY
+
+      - institution: Point Loma Nazarene University
+        area: Spanish Literature and Language
+        degree: BA
+        start_date: 2006-08
+        end_date: 2010-05
+        location: San Diego, CA
+
+    Experience:
       - company: Clean Air Task Force
         position: Consultant – NEPA Clean Energy Review Analysis
         location: Remote
@@ -117,29 +135,7 @@ cv:
             in Metro New York
           - Supervised design team and ensured project aligned with stakeholder vision
 
-    education:
-      - institution: City University of New York, The Graduate Center
-        area: Sociology
-        degree: PhD
-        start_date: 2016-08
-        end_date: 2023-02
-        location: New York City, NY
-
-      - institution: Fordham University
-        area: Sociology
-        degree: MA
-        start_date: 2014-08
-        end_date: 2016-05
-        location: Bronx, NY
-
-      - institution: Point Loma Nazarene University
-        area: Spanish Literature and Language
-        degree: BA
-        start_date: 2006-08
-        end_date: 2010-05
-        location: San Diego, CA
-
-    selected projects:
+    Selected Projects:
       - name: NEPA Clean Energy Environmental Review Analysis
         date: '2026–present'
         highlights:
@@ -147,8 +143,9 @@ cv:
             process types from 120,000+ unstructured federal documents
           - Integrated Federal Register API, web scraping, and ML/regex classifiers to
             categorize 20,000+ projects by technology, capacity, and review type
-          - 'Results: [project website](https://www.kaseyzapatka.com/nepa/phase1/reports/project_overview.html),
-            [HuggingFace document browser](https://huggingface.co/spaces/kaseyzapatka/nepa-document-explorer)'
+          - 'Published findings via a public [project website](https://www.kaseyzapatka.com/nepa/phase1/reports/project_overview.html)
+            and an interactive [HuggingFace document browser](https://huggingface.co/spaces/kaseyzapatka/nepa-document-explorer),
+            making results accessible to policymakers and researchers'
 
       - name: Voter Turnout in New York City
         date: '2025–2026'
@@ -182,7 +179,7 @@ cv:
           - Developed [online tool](https://housingliteracynyc.org) annotating NYC rent
             regulation legal documents for rent-stabilized tenants and housing advocates
 
-    publications:
+    Publications:
       - title: 'New Frontiers of Integration: Convergent Pathways of Neighborhood Diversification
           in Metropolitan New York'
         authors:
@@ -220,7 +217,7 @@ cv:
         date: 2020-08
         journal: Urban Studies
 
-    skills:
+    Skills:
       - label: Programming
         details: R, Python, SQL, Stata, Git & GitHub, Linux
       - label: Quantitative Methods

@@ -35,7 +35,7 @@ layout: default
           {% assign first_entry = section_entries[0] %}
           <a class="anchor" id="{{ section_name | slugify }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ section_name | capitalize }}</h3>
+            <h3 class="card-title font-weight-medium">{{ section_name }}</h3>
             <div>
               {% if first_entry.company %}
                 {% include rendercv/experience.liquid entries=section_entries %}
