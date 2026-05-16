@@ -1,0 +1,249 @@
+cv:
+  name: Kasey Zapatka, PhD
+  location: San Francisco, CA
+  email: kaseyzapatka@berkeley.edu
+  website: https://www.kaseyzapatka.com
+  social_networks:
+    - network: LinkedIn
+      username: kaseyzapatka
+    - network: GitHub
+      username: kaseyzapatka
+    - network: ORCID
+      username: 0000-0002-7278-3660
+
+  sections:
+    summary:
+      - Social science researcher using computational and survey methods to measure
+        policy impacts and visualize findings for stakeholders and decision-makers.
+
+    experience:
+      - company: Clean Air Task Force
+        position: Consultant – NEPA Clean Energy Review Analysis
+        location: Remote
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Built a BERT+LLM pipeline to extract and classify records from 120,000+
+            NEPA documents, enabling CATF to analyze clean energy review timelines at scale
+          - Integrated Federal Register API data, targeted web scraping, and ML/regex
+            classifiers to categorize 20,000+ projects by technology, review process, and capacity
+          - Scoped research questions collaboratively with CATF and delivered phased findings
+            across six structured deliverables mapped to specific policy priorities
+          - 'Published findings via public [project website](https://www.kaseyzapatka.com/nepa/phase1/reports/project_overview.html)
+            and [HuggingFace document browser](https://huggingface.co/spaces/kaseyzapatka/nepa-document-explorer)'
+
+      - company: University of California, Berkeley
+        position: Postdoctoral Researcher and Lecturer
+        location: Berkeley, CA
+        start_date: 2023-07
+        end_date: present
+        highlights:
+          - Lead cross-functional research team to develop, maintain, and analyze eviction
+            database (150M+ records) using SQL
+          - Applied R-based machine learning, multilevel regression, and synthetic control
+            methods to study impact of rental assistance on eviction filings
+          - Coordinated with UPenn partners, managed research process, and led report writing
+          - Presented findings and strategic recommendations to federal housing policy stakeholders
+          - Taught machine learning, natural language processing, and causal inference to PhD students
+          - Led 32 weekly labs in R and Python libraries (tidyverse, sklearn, TensorFlow)
+          - Supervised 8 student projects on predictive modeling and decision-making
+
+      - company: NYC Department of Housing Preservation & Development
+        position: Data Scientist
+        location: New York City, NY
+        start_date: 2022-09
+        end_date: 2023-06
+        highlights:
+          - Collaborated with US Census research team to establish sample survey research
+            frame for Housing Vacancy Survey
+          - Addressed Housing Vacancy Survey measurement error by creating post-stratification weights
+          - Developed methodology with survey weights to determine where to build affordable
+            housing, presented to non-technical stakeholders, and persuaded Commissioner to adopt methodology
+
+      - company: City University of New York, The Graduate Center
+        position: Research Scientist, Professor Van Tran
+        location: New York City, NY
+        start_date: 2021-01
+        end_date: 2022-12
+        highlights:
+          - Built US Census dataset to study ethno-racial neighborhood integration in metro New York
+          - Fitted multinomial logistic regression models and interpreted marginal effects plots in R
+          - Wrote methodological sections, created descriptive plots in R, and managed project
+            development on GitHub
+
+      - company: City University of New York, The Graduate Center
+        position: Research Scientist, Professor Paul Attewell
+        location: New York City, NY
+        start_date: 2018-10
+        end_date: 2021-05
+        highlights:
+          - Developed research projects to study divergence of benefits for groups with different
+            educational attainment
+          - Managed 4 large national, longitudinal, and cross-sectional datasets used in analyses
+          - Used data mining, HLM, OLS, and logistic regression techniques to understand the impact
+            of educational attainment on mid-life labor market earnings
+
+      - company: CUNY, Center for Urban Research
+        position: UX Researcher
+        location: New York City, NY
+        start_date: 2016-09
+        end_date: 2019-01
+        highlights:
+          - Designed, executed, and led focus group research to identify key labor market trends
+            across 10 different projects
+          - Distilled findings into actionable insights and presented recommendations to clients
+
+      - company: Empirical Creative
+        position: UX Researcher
+        location: New York City, NY
+        start_date: 2014-11
+        end_date: 2016-08
+        highlights:
+          - Designed and led mock jury trials (focus groups) to identify favorable juror characteristics
+            and attitudes
+          - Conducted strategic research to understand user characteristics that shape case opinions
+            and what facts change decisions
+          - Translated insights into actionable recommendations — trial strategy, user profiles,
+            and visual graphics
+
+      - company: Max Planck Institute
+        position: Data Scientist – Superdiversity in Metro New York Project
+        location: Remote
+        start_date: 2020-01
+        end_date: 2021-12
+        highlights:
+          - Managed end-to-end project development of interactive Superdiversity Website and Teaching Tool
+          - Built and analyzed 6 cross-sectional, longitudinal databases exploring changing diversity
+            in Metro New York
+          - Supervised design team and ensured project aligned with stakeholder vision
+
+    education:
+      - institution: City University of New York, The Graduate Center
+        area: Sociology
+        degree: PhD
+        start_date: 2016-08
+        end_date: 2023-02
+        location: New York City, NY
+
+      - institution: Fordham University
+        area: Sociology
+        degree: MA
+        start_date: 2014-08
+        end_date: 2016-05
+        location: Bronx, NY
+
+      - institution: Point Loma Nazarene University
+        area: Spanish Literature and Language
+        degree: BA
+        start_date: 2006-08
+        end_date: 2010-05
+        location: San Diego, CA
+
+    selected projects:
+      - name: NEPA Clean Energy Environmental Review Analysis
+        date: '2026–present'
+        highlights:
+          - Trained BERT classifiers and LLM adjudication layer to extract review dates and
+            process types from 120,000+ unstructured federal documents
+          - Integrated Federal Register API, web scraping, and ML/regex classifiers to
+            categorize 20,000+ projects by technology, capacity, and review type
+          - 'Results: [project website](https://www.kaseyzapatka.com/nepa/phase1/reports/project_overview.html),
+            [HuggingFace document browser](https://huggingface.co/spaces/kaseyzapatka/nepa-document-explorer)'
+
+      - name: Voter Turnout in New York City
+        date: '2025–2026'
+        highlights:
+          - Used Bayesian Improved Surname Geocoding (BISG) to impute race/ethnicity from
+            surnames in 4.6 million NYC voter registration records
+          - Applied multilevel regression and poststratification (MrP) to impute educational
+            attainment and build survey post-stratification weights
+          - Applied RAG techniques and fine-tuned open-source LLMs to extract insights from
+            voter file records
+
+      - name: SF Residential Inspection Risk
+        date: '2025'
+        highlights:
+          - Linked fire incidents, building violations, inspection records, and parcel tax
+            data at the parcel level using APN identifiers
+          - Built composite risk scores and k-means spatial clusters to prioritize inspections
+            for SFFD and the Department of Building Inspection
+          - 'Deployed two interactive Shiny dashboards: [SFFD](https://kaseyzapatka.shinyapps.io/fire_risk_dashboard/),
+            [DBI](https://kaseyzapatka.shinyapps.io/dbi_risk_dashboard/)'
+
+      - name: Superdiversity in Metro New York
+        date: '2020–2021'
+        highlights:
+          - Built 6 cross-sectional longitudinal databases and led end-to-end development
+            of interactive [website and teaching tool](https://www.superdiv-newyork.mmg.mpg.de)
+
+      - name: Housing Literacy
+        date: '2017–2019'
+        highlights:
+          - Developed [online tool](https://housingliteracynyc.org) annotating NYC rent
+            regulation legal documents for rent-stabilized tenants and housing advocates
+
+    publications:
+      - title: 'New Frontiers of Integration: Convergent Pathways of Neighborhood Diversification
+          in Metropolitan New York'
+        authors:
+          - Kasey Zapatka
+          - Van C. Tran
+        doi: 10.7758/RSF.2023.9.1.03
+        date: 2023-02
+        journal: 'RSF: The Russell Sage Foundation Journal of the Social Sciences'
+
+      - title: 'Affordable Regulation: New York City Rent Stabilization as Housing Affordability Policy'
+        authors:
+          - Kasey Zapatka
+          - Juliana de Castro Galvao
+        doi: 10.1177/15356841221123762
+        date: 2022-10
+        journal: City & Community
+
+      - title: 'Superdiversity in Metropolitan New York: Technical Report'
+        authors:
+          - Kasey Zapatka
+        url: https://www.superdiv-newyork.mmg.mpg.de
+        date: 2021-06
+        journal: Max Planck Institute
+
+      - title: Reordering Occupation, Race, and Place in Metropolitan New York
+        authors:
+          - Kasey Zapatka
+        date: 2021-01
+        journal: Springer International Publishing
+
+      - title: 'Does Demand Lead Supply? Gentrifiers and Developers in the Sequence of
+          Gentrification, New York City 2009–2016'
+        authors:
+          - Kasey Zapatka
+        date: 2020-08
+        journal: Urban Studies
+
+    skills:
+      - label: Programming
+        details: R, Python, SQL, Stata, Git & GitHub, Linux
+      - label: Quantitative Methods
+        details: Spatial econometrics, Machine learning, Generalized linear regression,
+          Natural language processing, Survey analysis, LLMs and GenAI, A/B testing
+      - label: Qualitative Methods
+        details: Focus groups, Interviews, Stakeholder analysis, Survey design, User perception studies
+      - label: Languages
+        details: English (native), Spanish (fluent)
+
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+  colors:
+    name: rgb(43, 95, 142)
+    headline: rgb(43, 95, 142)
+    connections: rgb(43, 95, 142)
+    section_titles: rgb(43, 95, 142)
+    links: rgb(43, 95, 142)
+  typography:
+    alignment: justified

@@ -1,0 +1,39 @@
+name: Render CV
+
+on:
+  push:
+    paths:
+      - "_data/cv.yaml"
+    branches:
+      - main
+
+jobs:
+  render-cv:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install RenderCV
+        run: pip install "rendercv[full]"
+
+      - name: Render CV
+        run: rendercv render _data/cv.yaml --output-folder-name /tmp/rendercv_output
+
+      - name: Copy PDF to assets
+        run: |
+          mkdir -p assets/pdf
+          cp /tmp/rendercv_output/*.pdf assets/pdf/Kasey_Zapatka_CV.pdf
+
+      - name: Commit rendered PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pdf/Kasey_Zapatka_CV.pdf
+          git diff --staged --quiet || git commit -m "auto-render CV PDF from cv.yaml [skip ci]"
+          git push

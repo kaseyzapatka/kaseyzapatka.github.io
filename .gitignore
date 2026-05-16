@@ -13,4 +13,5 @@ vendor
 .idea
 fixes.md
 .Rhistory
-assets/jupyter/output/
+assets/jupyter/output/_data/rendercv_output/
+Kasey_Zapatka_CV.yaml
