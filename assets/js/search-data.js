@@ -100,6 +100,26 @@ ninja.data = [{
           description: "Developed an interactive website visualizing New York metropolitan superdiversity, combining data analysis, cross-functional team leadership, and public-facing demographic insights.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-nepa-clean-energy-review-analysis",
+          title: 'NEPA Clean Energy Review Analysis',
+          description: "Built a Python BERT+LLM pipeline for the Clean Air Task Force to extract and classify 120,000+ federal environmental review documents, enabling evidence-based permitting reform recommendations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-nyc-voter-turnout-analysis",
+          title: 'NYC Voter Turnout Analysis',
+          description: "Applying Bayesian surname geocoding, multilevel regression with poststratification, and LLMs to study ethno-racial voter turnout patterns across 4.6 million NYC voter registration records.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-san-jose-transit-equity",
+          title: 'San Jose Transit Equity',
+          description: "Spatial analysis of zoning, parcel capacity, and public transit access around Diridon Station to assess transportation equity in downtown San Jose.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-sf-residential-inspection-risk",
+          title: 'SF Residential Inspection Risk',
+          description: "Built composite risk scores for San Francisco parcels using fire, violation, and inspection records, and deployed interactive Shiny dashboards for the SF Fire Department and Department of Building Inspection.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
