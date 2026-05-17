@@ -1,0 +1,36 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in include.entries %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+          {% assign pub_date = entry.date | split: '-' | first %}
+          <table class="table-cv">
+            <tbody>
+              <tr>
+                <td>
+                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ pub_date }}</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          {% if entry.doi %}
+            {% assign pub_url = 'https://doi.org/' | append: entry.doi %}
+          {% elsif entry.url %}
+            {% assign pub_url = entry.url %}
+          {% else %}
+            {% assign pub_url = '' %}
+          {% endif %}
+          <h6 class="title font-weight-bold ml-1 ml-md-4">
+            {% if pub_url != '' %}<a href="{{ pub_url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}
+          </h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.journal }}</h6>
+          {% if entry.authors %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.authors | join: ', ' }}</h6>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

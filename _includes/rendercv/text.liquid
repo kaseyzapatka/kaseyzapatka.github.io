@@ -1,0 +1,5 @@
+<div class="card-text font-weight-light">
+  {% for entry in include.entries %}
+    <p>{{ entry | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+  {% endfor %}
+</div>

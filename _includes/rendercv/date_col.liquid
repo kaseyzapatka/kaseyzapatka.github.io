@@ -1,0 +1,49 @@
+{% assign month_names = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: ',' %}
+{% if include.start_date %}
+  {% assign start_parts = include.start_date | split: '-' %}
+  {% if start_parts[1] %}
+    {% assign start_month_idx = start_parts[1] | minus: 1 %}
+    {% assign rc_start = month_names[start_month_idx] | append: ' ' | append: start_parts[0] %}
+  {% else %}
+    {% assign rc_start = start_parts[0] %}
+  {% endif %}
+  {% if include.end_date == 'present' or include.end_date == blank %}
+    {% assign rc_end = 'Present' %}
+  {% else %}
+    {% assign end_parts = include.end_date | split: '-' %}
+    {% if end_parts[1] %}
+      {% assign end_month_idx = end_parts[1] | minus: 1 %}
+      {% assign rc_end = month_names[end_month_idx] | append: ' ' | append: end_parts[0] %}
+    {% else %}
+      {% assign rc_end = end_parts[0] %}
+    {% endif %}
+  {% endif %}
+  {% assign rc_date = rc_start | append: ' – ' | append: rc_end %}
+{% elsif include.date %}
+  {% assign rc_date = include.date %}
+{% else %}
+  {% assign rc_date = '' %}
+{% endif %}
+<div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+  <table class="table-cv">
+    <tbody>
+      <tr>
+        <td>
+          {% if rc_date != '' %}
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ rc_date }}</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% if include.location %}
+        <tr>
+          <td>
+            <p class="location">
+              <i class="fa-solid fa-location-dot iconlocation"></i>
+              {{ include.location }}
+            </p>
+          </td>
+        </tr>
+      {% endif %}
+    </tbody>
+  </table>
+</div>
