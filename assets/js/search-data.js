@@ -112,7 +112,7 @@ ninja.data = [{
               window.location.href = "/projects/4_project/";
             },},{id: "projects-san-jose-transit-equity",
           title: 'San Jose Transit Equity',
-          description: "Spatial analysis of zoning, parcel capacity, and public transit access around Diridon Station to assess transportation equity in downtown San Jose.",
+          description: "Parcel-level analysis of housing capacity and displacement risk within one mile of Diridon Station — San Jose&#39;s zoning permits ~120,000 homes where only ~12,800 exist today, with ~20,600–42,500 buildable on parking lots and vacant land alone.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-sf-residential-inspection-risk",
