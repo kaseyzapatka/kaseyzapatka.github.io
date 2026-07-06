@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-flexible-functions",
+        },{id: "post-your-buffer-is-lying-to-you",
+        
+          title: "Your buffer is lying to you",
+        
+        description: "Why projection choice shrank my study area by 20%",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/buffer-projections/";
+          
+        },
+      },{id: "post-flexible-functions",
         
           title: "Flexible Functions",
         
